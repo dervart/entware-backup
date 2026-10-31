@@ -99,11 +99,11 @@
     
 2.  Отредактируйте crontab:
     
-    `EDITOR\=nano crontab \-e`
+    `EDITOR=nano crontab -e`
     
 3.  Добавьте строку:
     
-    `0 2 \* \* \* /opt/backup.sh`
+    `0 2 * * * /opt/backup.sh`
     
 4.  Запустите cron и включите автозагрузку:
     
